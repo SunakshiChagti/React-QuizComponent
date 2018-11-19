@@ -3,9 +3,9 @@ import React,{Component} from 'react'
 class QuizQuestionButton extends Component{
     render(){
         return(
-            <l1>
+            <li>
                 <button>{this.props.button_text}</button>
-            </l1>
+            </li>
         )
     }
 }
